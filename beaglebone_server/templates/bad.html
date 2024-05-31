@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Data Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>JSON Data Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Intensity</th>
+                <th>Breakpoints</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ data.id }}</td>
+                <td>{{ data.name }}</td>
+                <td>{{ data.location }}</td>
+                <td>{{ data.intensity }}</td>
+                <td>
+                    <ul>
+                        {% for breakpoint in data.breakpoints %}
+                        <li>Time: {{ breakpoint.time }}</li>
+                        <ul>
+                            {% for diode in breakpoint.diodes %}
+                            <li>
+                                ID: {{ diode.id }}<br>
+                                Wavelength: {{ diode.wavelength }} nm<br>
+                                Count: {{ diode.count }}<br>
+                                Description: {{ diode.description }}<br>
+                                Intensity: {{ diode.intensity }}<br>
+                                Alpha: {{ diode.alpha }}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endfor %}
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

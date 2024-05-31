@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Data</title>
+    <style>
+        .separator {
+            height: 4px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ data.name }}</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Diode ID</th>
+                <th>Wavelength</th>
+                <th>Count</th>
+                <th>Description</th>
+                <th>Intensity</th>
+                <th>Alpha</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for breakpoint in data.breakpoints %}
+                {% for diode in breakpoint.diodes %}
+                    <tr>
+                        {% if loop.first %}
+                            <td rowspan="{{ loop.length }}">{{ breakpoint.time }}</td>
+                        {% endif %}
+                        <td>{{ diode.id }}</td>
+                        <td>{{ diode.wavelength }}</td>
+                        <td>{{ diode.count }}</td>
+                        <td>{{ diode.description }}</td>
+                        <td>{{ diode.intensity }}</td>
+                        <td>{{ diode.alpha }}</td>
+                    </tr>
+                {% endfor %}
+                {% if not loop.last %}
+                    <tr class="separator">
+                        <td colspan="7"></td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+    <button id="updateButton">{{ "The sensor reads " + reading + " volts" }}</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#updateButton').click(function(){
+                $.ajax({
+                    url: '/get_reading', // Specify the route to update the value
+                    type: 'GET',
+                    success: function(response){
+                        this.innerHTML = "The sensor reads " + response + " volts"
+                    },
+                    error: function(xhr, status, error){
+                        this.innerHTML = "Couldn't read sensor!"
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

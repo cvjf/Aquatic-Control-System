@@ -1,0 +1,837 @@
+{
+  "name": "Beaglebone",
+  "id": "65E96F2F-A054-4A6F-AF7B-3EB7FFA63AD0",
+  "image": "..",
+  "location": "192.0.0.1",
+  "breakpoints": [
+    {
+      "diodes": [
+        {
+          "wavelength": 395,
+          "id": "860F809C-6C37-420B-8E20-018239B9D9C2",
+          "description": "Ultraviolet",
+          "intensity": 0,
+          "count": 4,
+          "alpha": 0.3
+        },
+        {
+          "count": 2,
+          "intensity": 0,
+          "wavelength": 405,
+          "description": "405nm",
+          "id": "86BBC225-46B6-4234-90CF-480384E8AD76",
+          "alpha": 0.2
+        },
+        {
+          "id": "3EC75664-262E-45C8-BF45-C52D115AE2AA",
+          "wavelength": 415,
+          "intensity": 0,
+          "alpha": 0.3,
+          "description": "415nm",
+          "count": 4
+        },
+        {
+          "id": "6F91038B-6736-458F-A7F9-943B2A9D9C19",
+          "description": "430nm",
+          "alpha": 0.6,
+          "wavelength": 430,
+          "count": 12,
+          "intensity": 0
+        },
+        {
+          "intensity": 0,
+          "count": 32,
+          "alpha": 0.9,
+          "wavelength": 450,
+          "id": "0204D3D8-1D5F-4D6B-83DB-2AE7A18FDD71",
+          "description": "Royal Blue"
+        },
+        {
+          "description": "Blue",
+          "id": "588FAE85-8FA8-4C28-AB42-47D38501A6A4",
+          "wavelength": 465,
+          "count": 32,
+          "alpha": 0.8,
+          "intensity": 0
+        },
+        {
+          "wavelength": 510,
+          "description": "Green",
+          "id": "E8331296-49AC-4799-9956-8A4A07EA6FD9",
+          "count": 2,
+          "alpha": 0.3,
+          "intensity": 0
+        },
+        {
+          "description": "Red",
+          "intensity": 0,
+          "alpha": 0.2,
+          "id": "2B5A7A8B-DB4E-41D5-A416-06C3F9C5CD9B",
+          "wavelength": 645,
+          "count": 2
+        }
+      ],
+      "time": 21600
+    },
+    {
+      "diodes": [
+        {
+          "id": "5FCAE751-C65F-41B0-9C9C-17F9966ED21E",
+          "intensity": 0.8987326431626423,
+          "count": 4,
+          "alpha": 0.3,
+          "wavelength": 395,
+          "description": "Ultraviolet"
+        },
+        {
+          "id": "55930AF5-CD80-4931-8385-1D67BFBF4A53",
+          "wavelength": 405,
+          "description": "405nm",
+          "intensity": 0.5868114588465728,
+          "count": 2,
+          "alpha": 0.2
+        },
+        {
+          "alpha": 0.3,
+          "id": "03E52080-7ECB-451C-BA9D-CAB04A248D9C",
+          "intensity": 0.19247870910913312,
+          "description": "415nm",
+          "count": 4,
+          "wavelength": 415
+        },
+        {
+          "id": "1F11E627-4848-4428-A2EE-D1752E0A9058",
+          "count": 12,
+          "intensity": 0.8777518220022174,
+          "wavelength": 430,
+          "description": "430nm",
+          "alpha": 0.6
+        },
+        {
+          "wavelength": 450,
+          "count": 32,
+          "id": "409281EA-232B-48EF-BF45-BAA95F9A9139",
+          "description": "Royal Blue",
+          "intensity": 0.9325308160293285,
+          "alpha": 0.9
+        },
+        {
+          "description": "Blue",
+          "intensity": 0.9364922075699059,
+          "wavelength": 465,
+          "count": 32,
+          "alpha": 0.8,
+          "id": "7AE54662-63EF-4E74-9CC1-30B717254F1D"
+        },
+        {
+          "intensity": 0,
+          "alpha": 0.3,
+          "id": "6A816016-15FE-4DD2-AF12-9B36930AE33B",
+          "wavelength": 510,
+          "count": 2,
+          "description": "Green"
+        },
+        {
+          "intensity": 0.873936705968216,
+          "description": "Red",
+          "wavelength": 645,
+          "id": "6C8C8524-E4E3-4EAE-AC82-4968F40746E0",
+          "count": 2,
+          "alpha": 0.2
+        }
+      ],
+      "time": 28800
+    },
+    {
+      "time": 34200,
+      "diodes": [
+        {
+          "alpha": 0.3,
+          "description": "Ultraviolet",
+          "id": "6DD0BDFB-BAFB-4477-A3F7-B296B8EE4EB2",
+          "count": 4,
+          "wavelength": 395,
+          "intensity": 0.3135828131047752
+        },
+        {
+          "alpha": 0.2,
+          "wavelength": 405,
+          "description": "405nm",
+          "id": "307E036C-277F-49E3-8DB3-DC84F4BF590E",
+          "count": 2,
+          "intensity": 0.9195722023847409
+        },
+        {
+          "count": 4,
+          "description": "415nm",
+          "intensity": 0.327288061805005,
+          "alpha": 0.3,
+          "wavelength": 415,
+          "id": "E05E43EC-63D3-4224-A839-35C576C5145A"
+        },
+        {
+          "wavelength": 430,
+          "count": 12,
+          "description": "430nm",
+          "alpha": 0.6,
+          "id": "3F3A3C25-CDF9-4597-8CBD-2E5480506BBD",
+          "intensity": 0.4191310377054308
+        },
+        {
+          "id": "4CD0C678-7BFB-429D-B5CF-89621DDD1D74",
+          "wavelength": 450,
+          "intensity": 0.8238170826586566,
+          "count": 32,
+          "alpha": 0.9,
+          "description": "Royal Blue"
+        },
+        {
+          "count": 32,
+          "wavelength": 465,
+          "id": "BECD6B2A-DE68-44B1-AA59-7D0DE35247F6",
+          "description": "Blue",
+          "intensity": 0.7341968028012336,
+          "alpha": 0.8
+        },
+        {
+          "wavelength": 510,
+          "description": "Green",
+          "alpha": 0.3,
+          "id": "0B7F0F20-78B1-4D7A-BB30-E26E339BC444",
+          "count": 2,
+          "intensity": 0
+        },
+        {
+          "count": 2,
+          "description": "Red",
+          "intensity": 0.9303883841446812,
+          "wavelength": 645,
+          "id": "8A5F3AAF-99CE-4901-93F3-38B3F655F221",
+          "alpha": 0.2
+        }
+      ]
+    },
+    {
+      "diodes": [
+        {
+          "id": "CF867358-3256-4447-80FF-5D834C8DBC12",
+          "intensity": 0.34577802224189746,
+          "alpha": 0.3,
+          "description": "Ultraviolet",
+          "count": 4,
+          "wavelength": 395
+        },
+        {
+          "intensity": 0.8812852398578338,
+          "alpha": 0.2,
+          "id": "885B727A-E22A-4ADE-9533-D6E9EF1247DC",
+          "wavelength": 405,
+          "description": "405nm",
+          "count": 2
+        },
+        {
+          "count": 4,
+          "intensity": 0.5298234883408494,
+          "alpha": 0.3,
+          "id": "488D49F4-D827-4737-975B-CDA091288853",
+          "wavelength": 415,
+          "description": "415nm"
+        },
+        {
+          "description": "430nm",
+          "wavelength": 430,
+          "id": "CA023629-9AE5-40F4-A678-D65AAC438A11",
+          "alpha": 0.6,
+          "intensity": 0.21257488219707854,
+          "count": 12
+        },
+        {
+          "id": "54489CA3-0CF6-43D6-B56F-FD73CAEC32F1",
+          "alpha": 0.9,
+          "wavelength": 450,
+          "description": "Royal Blue",
+          "intensity": 0.9789940455363954,
+          "count": 32
+        },
+        {
+          "id": "44765570-EAAB-44EE-AAE2-3420A6D8FE4A",
+          "wavelength": 465,
+          "description": "Blue",
+          "count": 32,
+          "intensity": 0.31353094252686065,
+          "alpha": 0.8
+        },
+        {
+          "alpha": 0.3,
+          "wavelength": 510,
+          "id": "9B2D9893-2C97-4169-9EDD-FB63EA01BE85",
+          "intensity": 0,
+          "count": 2,
+          "description": "Green"
+        },
+        {
+          "intensity": 0.18696935810790483,
+          "id": "3CC4D79F-20E6-4B9E-984E-008FFF2EAB92",
+          "count": 2,
+          "wavelength": 645,
+          "alpha": 0.2,
+          "description": "Red"
+        }
+      ],
+      "time": 39600
+    },
+    {
+      "diodes": [
+        {
+          "intensity": 0.43545626337796506,
+          "description": "Ultraviolet",
+          "wavelength": 395,
+          "alpha": 0.3,
+          "count": 4,
+          "id": "B0440EF1-0CDA-49C2-AC55-D287AFFA4734"
+        },
+        {
+          "count": 2,
+          "description": "405nm",
+          "wavelength": 405,
+          "alpha": 0.2,
+          "id": "93D3F3B9-52DB-4D38-916C-8FD6BEA9A486",
+          "intensity": 0.35045273134230714
+        },
+        {
+          "description": "415nm",
+          "alpha": 0.3,
+          "wavelength": 415,
+          "count": 4,
+          "intensity": 0.08487963591433834,
+          "id": "EFEB1210-337E-4BA5-9C91-A79167239A58"
+        },
+        {
+          "intensity": 0.8203060388878397,
+          "description": "430nm",
+          "id": "AAE8A393-25CB-4162-A921-FF7CE92D5279",
+          "wavelength": 430,
+          "alpha": 0.6,
+          "count": 12
+        },
+        {
+          "intensity": 0.14123064960321585,
+          "description": "Royal Blue",
+          "alpha": 0.9,
+          "wavelength": 450,
+          "id": "6BDC8FC9-BDF7-4765-9B21-55A3AD0CC514",
+          "count": 32
+        },
+        {
+          "count": 32,
+          "wavelength": 465,
+          "id": "78A2C3DA-DAB1-4C75-9BFF-8A3E66D36B70",
+          "alpha": 0.8,
+          "description": "Blue",
+          "intensity": 0.826350045538023
+        },
+        {
+          "wavelength": 510,
+          "count": 2,
+          "id": "1F2808C1-E12C-44D5-946B-364C0E91A13F",
+          "description": "Green",
+          "intensity": 0,
+          "alpha": 0.3
+        },
+        {
+          "description": "Red",
+          "wavelength": 645,
+          "count": 2,
+          "intensity": 0.749422150060761,
+          "alpha": 0.2,
+          "id": "25C2C83D-8840-4ECE-8A89-4BB8010C9EC8"
+        }
+      ],
+      "time": 41400
+    },
+    {
+      "diodes": [
+        {
+          "alpha": 0.3,
+          "id": "23AC6B68-2A18-4440-964E-28DA77708620",
+          "wavelength": 395,
+          "count": 4,
+          "description": "Ultraviolet",
+          "intensity": 0.17841229292678318
+        },
+        {
+          "wavelength": 405,
+          "id": "0E291781-AF19-4F01-8200-4F01EC4581F9",
+          "description": "405nm",
+          "intensity": 0.43334927856627026,
+          "alpha": 0.2,
+          "count": 2
+        },
+        {
+          "description": "415nm",
+          "intensity": 0.6854250756033244,
+          "id": "8B37CC97-0DF5-4ADB-A3A9-727ACC9EB7D4",
+          "wavelength": 415,
+          "alpha": 0.3,
+          "count": 4
+        },
+        {
+          "alpha": 0.6,
+          "wavelength": 430,
+          "count": 12,
+          "intensity": 0.7812778555304797,
+          "id": "2BAFB83A-73AF-4E4C-96D1-84F511DE1B4C",
+          "description": "430nm"
+        },
+        {
+          "description": "Royal Blue",
+          "intensity": 0.022541390635875014,
+          "alpha": 0.9,
+          "wavelength": 450,
+          "id": "AC22CA16-8A4A-4DE7-9A87-D59F319CDCCF",
+          "count": 32
+        },
+        {
+          "intensity": 0.3154518775193501,
+          "id": "E43D1284-52CE-4CDD-95C6-5D024753FD3F",
+          "description": "Blue",
+          "alpha": 0.8,
+          "wavelength": 465,
+          "count": 32
+        },
+        {
+          "count": 2,
+          "description": "Green",
+          "wavelength": 510,
+          "alpha": 0.3,
+          "id": "CE12081A-95E5-4014-8C97-EF2240686C4F",
+          "intensity": 0
+        },
+        {
+          "alpha": 0.2,
+          "wavelength": 645,
+          "count": 2,
+          "intensity": 0.424184704900213,
+          "id": "3E6A78E4-CBFD-4BF7-AB19-9D5E923C6297",
+          "description": "Red"
+        }
+      ],
+      "time": 43200
+    },
+    {
+      "time": 45000,
+      "diodes": [
+        {
+          "intensity": 0.5509732061719785,
+          "id": "EB78018F-DEA2-49AD-8C1B-B1B4C3C84DED",
+          "description": "Ultraviolet",
+          "count": 4,
+          "wavelength": 395,
+          "alpha": 0.3
+        },
+        {
+          "id": "4796F78C-CA84-4D2E-B483-7C2754195209",
+          "wavelength": 405,
+          "description": "405nm",
+          "intensity": 0.7504737428843892,
+          "count": 2,
+          "alpha": 0.2
+        },
+        {
+          "id": "826213B2-53BB-4375-88A4-26BA2C9458F5",
+          "intensity": 0.6160957414873423,
+          "description": "415nm",
+          "count": 4,
+          "alpha": 0.3,
+          "wavelength": 415
+        },
+        {
+          "alpha": 0.6,
+          "wavelength": 430,
+          "count": 12,
+          "id": "B82FC2B0-334E-4EA7-B442-918539F78F78",
+          "description": "430nm",
+          "intensity": 0.9639536684832665
+        },
+        {
+          "intensity": 0.07952182657650897,
+          "id": "6BB9A2BD-6289-458C-9624-65EB83C859A0",
+          "alpha": 0.9,
+          "count": 32,
+          "wavelength": 450,
+          "description": "Royal Blue"
+        },
+        {
+          "intensity": 0.10830033282979046,
+          "count": 32,
+          "id": "A98209F4-2F3E-448F-B2F0-A836F609384E",
+          "alpha": 0.8,
+          "wavelength": 465,
+          "description": "Blue"
+        },
+        {
+          "wavelength": 510,
+          "id": "BFD2D5B7-59A5-4E2A-8F17-0BC63E1051EE",
+          "alpha": 0.3,
+          "intensity": 0,
+          "description": "Green",
+          "count": 2
+        },
+        {
+          "alpha": 0.2,
+          "wavelength": 645,
+          "description": "Red",
+          "intensity": 0.727315016577587,
+          "id": "F296D4AC-58BC-4815-B191-BF58C8B16C05",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "diodes": [
+        {
+          "wavelength": 395,
+          "description": "Ultraviolet",
+          "intensity": 0.7250527739129696,
+          "count": 4,
+          "alpha": 0.3,
+          "id": "663F2AA6-F371-4E11-855A-85FDE052B9B4"
+        },
+        {
+          "count": 2,
+          "intensity": 0.5287689071013371,
+          "alpha": 0.2,
+          "wavelength": 405,
+          "description": "405nm",
+          "id": "A929EDA5-E3E9-40CA-B376-B61859F8D8BE"
+        },
+        {
+          "id": "BDC11628-E201-48A5-BAE2-CC007BDA466B",
+          "intensity": 0.23072514715324632,
+          "wavelength": 415,
+          "count": 4,
+          "description": "415nm",
+          "alpha": 0.3
+        },
+        {
+          "count": 12,
+          "description": "430nm",
+          "id": "A082EE39-59B9-41B8-B650-21D9158B52E3",
+          "intensity": 0.5762194247084251,
+          "wavelength": 430,
+          "alpha": 0.6
+        },
+        {
+          "id": "3087F1DE-7847-4C9F-A0A8-5CBDAC782499",
+          "intensity": 0.11174529361348362,
+          "count": 32,
+          "wavelength": 450,
+          "description": "Royal Blue",
+          "alpha": 0.9
+        },
+        {
+          "wavelength": 465,
+          "description": "Blue",
+          "count": 32,
+          "id": "59C35775-7D9C-4C57-B386-921E357698B8",
+          "alpha": 0.8,
+          "intensity": 0.08769191156766443
+        },
+        {
+          "description": "Green",
+          "alpha": 0.3,
+          "count": 2,
+          "wavelength": 510,
+          "id": "4E6EB25D-3FEE-4219-B719-A40E81EFBDB3",
+          "intensity": 0
+        },
+        {
+          "id": "AEE1C19F-C3A4-4768-B32D-15FC449747FA",
+          "description": "Red",
+          "wavelength": 645,
+          "intensity": 0.6779806418559737,
+          "count": 2,
+          "alpha": 0.2
+        }
+      ],
+      "time": 46800
+    },
+    {
+      "time": 52200,
+      "diodes": [
+        {
+          "id": "C5644FE9-1275-41DC-96C8-49EE0D20E100",
+          "description": "Ultraviolet",
+          "count": 4,
+          "alpha": 0.3,
+          "intensity": 0.5266502544393621,
+          "wavelength": 395
+        },
+        {
+          "description": "405nm",
+          "intensity": 0.20797646003256498,
+          "count": 2,
+          "alpha": 0.2,
+          "wavelength": 405,
+          "id": "6BAEBEFC-6AFC-420D-B1EE-50E218CF36C4"
+        },
+        {
+          "count": 4,
+          "intensity": 0.5201572539442021,
+          "wavelength": 415,
+          "id": "214A11F6-5B0C-465F-9229-C99766956269",
+          "description": "415nm",
+          "alpha": 0.3
+        },
+        {
+          "alpha": 0.6,
+          "wavelength": 430,
+          "intensity": 0.15630331942111275,
+          "count": 12,
+          "id": "52F38941-D5D7-4645-A1C6-B85FD087EDB9",
+          "description": "430nm"
+        },
+        {
+          "wavelength": 450,
+          "id": "C73E787E-577B-4544-88AD-E956974A9F00",
+          "alpha": 0.9,
+          "count": 32,
+          "description": "Royal Blue",
+          "intensity": 0.8579956112922602
+        },
+        {
+          "wavelength": 465,
+          "description": "Blue",
+          "count": 32,
+          "id": "4CAE18B4-12D0-4B0E-AD34-E0578D70F70D",
+          "alpha": 0.8,
+          "intensity": 0.9219296761913776
+        },
+        {
+          "id": "DA56E32F-88E8-4F89-A340-0B0CA648F7C9",
+          "count": 2,
+          "description": "Green",
+          "intensity": 0,
+          "wavelength": 510,
+          "alpha": 0.3
+        },
+        {
+          "count": 2,
+          "wavelength": 645,
+          "intensity": 0.6048855318100341,
+          "id": "518B0B88-C905-4EA9-94B3-E4A653AB6B96",
+          "description": "Red",
+          "alpha": 0.2
+        }
+      ]
+    },
+    {
+      "time": 61200,
+      "diodes": [
+        {
+          "id": "A872CE89-9BE6-47B7-B900-A76DA8B55361",
+          "wavelength": 395,
+          "description": "Ultraviolet",
+          "alpha": 0.3,
+          "intensity": 0.7395594790189434,
+          "count": 4
+        },
+        {
+          "wavelength": 405,
+          "alpha": 0.2,
+          "id": "40588706-CA44-43A6-94E1-8F1DD0735E15",
+          "description": "405nm",
+          "count": 2,
+          "intensity": 0.6672014051439796
+        },
+        {
+          "id": "34ACA84C-1DA7-4C81-A969-3A95507188F5",
+          "wavelength": 415,
+          "intensity": 0.2821874585426297,
+          "description": "415nm",
+          "count": 4,
+          "alpha": 0.3
+        },
+        {
+          "alpha": 0.6,
+          "intensity": 0.5699209063990561,
+          "count": 12,
+          "id": "732B30E5-AE20-4541-8F5C-57DAF7F1DA9C",
+          "description": "430nm",
+          "wavelength": 430
+        },
+        {
+          "id": "6AB7F0E7-075C-42CB-9CF2-06BBECEB4955",
+          "alpha": 0.9,
+          "wavelength": 450,
+          "count": 32,
+          "intensity": 0.25240492226434796,
+          "description": "Royal Blue"
+        },
+        {
+          "intensity": 0.21554766562007044,
+          "description": "Blue",
+          "count": 32,
+          "alpha": 0.8,
+          "wavelength": 465,
+          "id": "C70C2036-5EBD-429B-B0ED-41E7B36291B7"
+        },
+        {
+          "alpha": 0.3,
+          "count": 2,
+          "description": "Green",
+          "intensity": 0,
+          "id": "153F5277-C744-4B7D-A397-9CD2C3205988",
+          "wavelength": 510
+        },
+        {
+          "wavelength": 645,
+          "description": "Red",
+          "intensity": 0.7282032753333764,
+          "count": 2,
+          "id": "0D761D07-404D-4947-AAC7-A4703E6AC9EC",
+          "alpha": 0.2
+        }
+      ]
+    },
+    {
+      "time": 68400,
+      "diodes": [
+        {
+          "alpha": 0.3,
+          "count": 4,
+          "description": "Ultraviolet",
+          "id": "E8DA3E92-CCBC-4C2E-8CD9-AB387A0BE402",
+          "wavelength": 395,
+          "intensity": 0.7323132975416179
+        },
+        {
+          "description": "405nm",
+          "count": 2,
+          "wavelength": 405,
+          "id": "77402332-52D9-432A-8DF9-3AFF6BA19DD8",
+          "alpha": 0.2,
+          "intensity": 0.04969428779792273
+        },
+        {
+          "description": "415nm",
+          "alpha": 0.3,
+          "id": "BBAE0CF6-0124-452C-AA60-34D314DDB04C",
+          "intensity": 0.5809590173098801,
+          "wavelength": 415,
+          "count": 4
+        },
+        {
+          "wavelength": 430,
+          "intensity": 0.8492031064690154,
+          "id": "E05BD4E3-831C-4C84-8228-8ADBC926CD6A",
+          "count": 12,
+          "alpha": 0.6,
+          "description": "430nm"
+        },
+        {
+          "alpha": 0.9,
+          "wavelength": 450,
+          "description": "Royal Blue",
+          "intensity": 0.7851935587797574,
+          "id": "1E073B15-0537-4D4B-8ED9-D2766DAD3A29",
+          "count": 32
+        },
+        {
+          "wavelength": 465,
+          "id": "A0152B4C-BF3E-4F89-A400-6C9E459E41A7",
+          "description": "Blue",
+          "alpha": 0.8,
+          "intensity": 0.4708083591540032,
+          "count": 32
+        },
+        {
+          "id": "FD008F4A-01AC-4D03-B04B-425E51EDE24C",
+          "intensity": 0,
+          "description": "Green",
+          "wavelength": 510,
+          "count": 2,
+          "alpha": 0.3
+        },
+        {
+          "wavelength": 645,
+          "count": 2,
+          "description": "Red",
+          "intensity": 0.7198987337223227,
+          "id": "7772FF76-217B-4FDB-BB1F-559DDF5FD435",
+          "alpha": 0.2
+        }
+      ]
+    },
+    {
+      "time": 75600,
+      "diodes": [
+        {
+          "alpha": 0.3,
+          "description": "Ultraviolet",
+          "wavelength": 395,
+          "intensity": 0,
+          "id": "D79CE72F-FC5F-4F9F-8F4E-D7D57214C6A0",
+          "count": 4
+        },
+        {
+          "wavelength": 405,
+          "id": "9016DA0B-210A-45E2-8F45-FC7353565470",
+          "description": "405nm",
+          "count": 2,
+          "intensity": 0,
+          "alpha": 0.2
+        },
+        {
+          "intensity": 0,
+          "wavelength": 415,
+          "id": "F07F351B-6D50-4DE7-A827-888B3A73B419",
+          "description": "415nm",
+          "alpha": 0.3,
+          "count": 4
+        },
+        {
+          "description": "430nm",
+          "wavelength": 430,
+          "alpha": 0.6,
+          "id": "3738FEDA-DCDC-4455-A5D9-2D4E76178AC7",
+          "count": 12,
+          "intensity": 0
+        },
+        {
+          "description": "Royal Blue",
+          "wavelength": 450,
+          "id": "57D60802-35BC-4E64-AAB4-2BD520383D19",
+          "intensity": 0,
+          "alpha": 0.9,
+          "count": 32
+        },
+        {
+          "count": 32,
+          "description": "Blue",
+          "alpha": 0.8,
+          "intensity": 0,
+          "wavelength": 465,
+          "id": "3F6BAE18-7B54-4600-91ED-721CCDCD5B26"
+        },
+        {
+          "description": "Green",
+          "intensity": 0,
+          "alpha": 0.3,
+          "id": "36B86FA1-A5E8-4F4A-BD74-F91920AFAF60",
+          "wavelength": 510,
+          "count": 2
+        },
+        {
+          "wavelength": 645,
+          "count": 2,
+          "id": "34074F97-F5DF-450F-AC91-EEA77D806ED2",
+          "description": "Red",
+          "intensity": 0,
+          "alpha": 0.2
+        }
+      ]
+    }
+  ],
+  "intensity": 0
+}
